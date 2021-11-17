@@ -1,0 +1,66 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+
+  {% endblock %}
+
+  
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+        <a class="govuk-back-link" href="/book.html">Back</a>
+     
+      
+        <div class="govuk-width-container">
+            <main class="govuk-main-wrapper govuk-main-wrapper--l" id="main-content" role="main">
+              <div class="govuk-grid-row">
+        
+                  <div class="govuk-panel govuk-panel--confirmation">
+                    <h1 class="govuk-panel__title">
+                      Booking complete
+                    </h1>
+                    <div class="govuk-panel__body">
+                      Your mediation appointment is booked for <br><strong>25 December 2021</strong>
+                    </div>
+                  </div>
+          
+            
+          
+                  <h2 class="govuk-heading-m">What happens next</h2>
+          
+                  <p class="govuk-body">
+                    We’ve sent you an email with more information on how to prepare for your mediation appointment.
+                  </p>
+          
+                  <p class="govuk-body">
+                    <a href="#" class="govuk-link">What did you think of this service?</a> (takes 30 seconds)
+                  </p>
+                </div>
+              </div>
+            </main>
+          </div>
+     
+
+       
+
+  
+
+      <div class="govuk-button-group">
+        <a href="confirmation.html" role="button" draggable="false" class="govuk-button" data-module="govuk-button">
+          Continue
+        </a>
+      
+        <a class="govuk-link" href="#">Cancel</a>
+      </div>
+
+
+
+      
+    </div>
+  </div>
+
+{% endblock %}

@@ -1,0 +1,120 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+
+  {% endblock %}
+
+  
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+        <a class="govuk-back-link" href="/claim-number.html">Back</a>
+        <p class="fb-editable govuk-caption-l fb-section_heading" data-fb-content-type="element" data-fb-content-id="page[section_heading]" data-fb-default-text="[Optional section heading]">
+          Page 4 of 4
+        </p>
+      
+        <div class="govuk-error-summary" aria-labelledby="error-summary-title" role="alert" tabindex="-1" data-module="govuk-error-summary">
+          <h2 class="govuk-error-summary__title" id="error-summary-title">
+            There is a problem
+          </h2>
+          <div class="govuk-error-summary__body">
+            
+            <ul class="govuk-list govuk-error-summary__list">
+            
+              <li>
+              
+                <a href="#auto_name_1-0">Select morning or afternoon appointment</a>
+              
+              </li>
+            
+            </ul>
+          </div>
+        </div>
+
+        <h1 class="fb-editable govuk-heading-xl" data-fb-content-id="page[heading]" data-fb-content-type="element">
+            Book an appointment
+          </h1>
+     
+
+       
+          <form method="post" novalidate>
+
+            <input type="submit" style="display: none" aria-hidden="true">
+            
+            
+            <input type="hidden" name="_csrf" value="Dgt4iW3G-SJFgfyrnlCeHRzGoqjW8Cm2yHSk">
+            
+            
+            
+            
+            
+            
+            
+            
+            <div class="fb-block fb-block-radios govuk-form-group govuk-form-group--error" data-block-id="page.what-do-you-need-help-with--radios.auto_name__1" data-block-type="radios">
+            
+              <fieldset class="govuk-fieldset" aria-describedby="auto_name_1-error" data-block-id="page.what-do-you-need-help-with--radios.auto_name__1" data-block-property="legend">
+              
+            
+              
+            
+              <span id="auto_name_1-error" class="govuk-error-message">
+               Select morning or afternoon appointment
+              </span>
+            
+              <div class="govuk-radios">
+                
+                  
+                    
+                    
+                    <div class="govuk-radios__item">
+                      <input class="govuk-radios__input" id="auto_name_1-0" name="auto_name__1" type="radio" value="auto_value__1" data-block-id="page.what-do-you-need-help-with--radios.auto_name__1--radio.auto_value__1" data-block-type="radio">
+                      <label class="govuk-label govuk-radios__label" data-block-id="page.what-do-you-need-help-with--radios.auto_name__1--radio.auto_value__1" data-block-property="label" for="auto_name_1-0">
+                    Morning appointment
+                  </label>
+                      
+                    </div>
+                    
+                    
+                  
+                
+                  
+                    
+                    
+                    <div class="govuk-radios__item">
+                      <input class="govuk-radios__input" id="auto_name_1-1" name="auto_name__1" type="radio" value="auto_value__2" aria-describedby="auto_name_1-1-item-hint" data-block-id="page.what-do-you-need-help-with--radios.auto_name__1--radio.auto_value__2" data-block-type="radio">
+                      <label class="govuk-label govuk-radios__label" data-block-id="page.what-do-you-need-help-with--radios.auto_name__1--radio.auto_value__2" data-block-property="label" for="auto_name_1-1">
+                    Afternoon appointment
+                  </label>
+                    
+                      <div id="auto_name_1-1-item-hint" class="govuk-hint govuk-radios__hint" data-block-id="page.what-do-you-need-help-with--radios.auto_name__1--radio.auto_value__2" data-block-property="hint">
+                 
+                  </div>
+                      
+                    </div>
+                    
+                    
+                  
+                
+              </div>
+              <p></p>
+
+      <div class="govuk-button-group">
+        <a href="confirmation.html" role="button" draggable="false" class="govuk-button" data-module="govuk-button">
+          Confirm booking
+        </a>
+      
+        <a class="govuk-link" href="#">Cancel</a>
+      </div>
+
+
+
+      
+    </div>
+  </div>
+
+{% endblock %}
